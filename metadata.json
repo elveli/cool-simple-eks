@@ -1,0 +1,5 @@
+{
+  "name": "Affordable EKS Terraform Project",
+  "description": "A Terraform project that provisions an affordable EKS cluster using Spot instances, along with a cool React app to deploy on it.",
+  "requestFramePermissions": []
+}
