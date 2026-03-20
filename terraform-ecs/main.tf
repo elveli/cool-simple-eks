@@ -65,6 +65,7 @@ module "alb" {
   vpc_id  = module.vpc.vpc_id
   subnets = module.vpc.public_subnets
   security_groups = [aws_security_group.alb.id]
+  enable_deletion_protection = false
 
   listeners = {
     http = {
