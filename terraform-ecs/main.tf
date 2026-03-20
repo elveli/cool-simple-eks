@@ -78,10 +78,11 @@ module "alb" {
 
   target_groups = {
     ecs = {
-      backend_protocol = "HTTP"
-      backend_port     = 80
-      target_type      = "ip"
-      vpc_id           = module.vpc.vpc_id
+      backend_protocol  = "HTTP"
+      backend_port      = 80
+      target_type       = "ip"
+      vpc_id            = module.vpc.vpc_id
+      create_attachment = false
       health_check = {
         path    = "/"
         matcher = "200-399"
