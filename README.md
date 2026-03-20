@@ -107,5 +107,3 @@ kubectl delete -f ../k8s/deployment.yaml
 cd ../terraform
 terraform destroy -auto-approve
 ```
-
-[![Hits](https://hits.sh/github.com/elveli/repository.svg)](https://hits.sh/github.com/elveli/repository/)
