@@ -1,6 +1,7 @@
 # Affordable EKS Cluster & Cool App Deployment
 
 This project contains Terraform code to provision an affordable Amazon EKS cluster using Spot instances, and Kubernetes manifests to deploy a simple web application.
+If you want to deploy ECS cluster see this readme https://github.com/elveli/cool-simple-eks/blob/main/README-ECS.md
 
 ## Infrastructure Details
 - **VPC**: A new VPC with public and private subnets across 2 Availability Zones.
